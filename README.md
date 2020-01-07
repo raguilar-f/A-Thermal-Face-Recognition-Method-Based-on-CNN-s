@@ -1,2 +1,11 @@
 # Basic-Thermal-Face-Recognition-Method-Based-on-CNN-s
 In this repository, I present a very simple approach to carry out thermal face recognition using CNN's. The main contribution of this method is in the treatment of the facial occlusion issue.
+
+The facial thermal images utilized in the present project, come from the Terravic Facial IR Database, a database of the public available OTCBVS Benchmark Dataset Collection that can be found at http://vcipl-okstate.org/pbvs/bench/. The thermograms of the Terravic Facial IR Database contain variations in facial poses (front, left, right) and environment (indoor, outdoor), besides of accessories as glasses and hats. As stated in the OTCBVS Benchmark Dataset Collection, the Terravic Facial IR Database is constituted by the samples from 20 individuals, however, it is only possible to download the samples of 18 individuals, which comprise a total of 22,784 images.
+
+In the file CNN_Thermal.ipynb, I introduce a simple CNN architecture to undertake thermal face recognition in a classical experimental scenario, namely, the training, validation and test sets are constituted by the same type of images.
+
+On the other side, in the file CNN_Thermal_Glasses.ipynb, another simple CNN model is presented, whose aim is the treatment of the facial occlusion issue. In this experiment, the training set is composed of images free of accesories but with variations in poses, whereas the validation and test set contain facial images with glasses AND with pose changes.
+
+The objective of the previous experiments, is just to show the potential of the use of CNN's in the thermal face recognition domain. For a more complete assesment, it is neccesary to scale this project and use more individuals in the experiments, since here, only a few samples of 5 individuals of the Terravic Facial IR Database are utilized. In my repository https://github.com/raguilar-f/Thermal-face-recognition-using-transfer-learning, the interested reader can found a comprehensive analysis with all the individuals of the Terravic Facial IR Database. In such repository, a novel method based on CNN's and transfer learning is introduced, and the recognition results achieved, are the best (and most innovative) in the state-of-the-art related to the Terravic Facial IR Database.
+
