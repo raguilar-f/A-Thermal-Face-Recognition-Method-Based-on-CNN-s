@@ -1,4 +1,4 @@
-# Basic-Thermal-Face-Recognition-Method-Based-on-CNN-s
+# Thermal-Face-Recognition-Method-Based-on-CNN-s
 In this repository, I present an approach to carry out thermal face recognition using CNN's. The main contribution of this method is in the treatment of the facial occlusion issue.
 
 The facial thermal images utilized in the present project, come from the Terravic Facial IR Database, a database of the public available OTCBVS Benchmark Dataset Collection that can be found at http://vcipl-okstate.org/pbvs/bench/. The thermograms of the Terravic Facial IR Database contain variations in facial poses (front, left, right) and environment (indoor, outdoor), besides of accessories as glasses and hats. As stated in the OTCBVS Benchmark Dataset Collection, the Terravic Facial IR Database is constituted by the samples from 20 individuals, however, it is only possible to download the samples of 18 individuals, which comprise a total of 22,784 images.
